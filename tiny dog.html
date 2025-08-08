@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<style>
+    header {
+      background: linear-gradient(to right, #EBF1C6, grey, #F1C6C6);
+      color: #fff;
+      padding: 10px 0 5px 0;
+      text-align: center;
+       border-bottom: 10px solid white;
+       
+       border-radius: 12px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+      letter-spacing: 2px;
+      text-shadow: none;
+    }
+    header p {
+      margin: 10px 0 0 0;
+      font-size: 1.4em;
+      color: black;
+      padding-bottom: 1%;
+
+    }
+		#div1{
+			background-color: #FF9A5C;
+			border-radius: 5px;
+
+		}
+		.dog{
+		   width: 40%;
+		   text-shadow:2px 4pc 6px black;
+	  }
+		
+	    .header{
+			text-align: center;
+			padding: 1% 3%;
+			margin-left: 4%;
+			padding-bottom: 5%;
+		
+		}
+		.h1{
+			margin-bottom: 5%;
+		}
+		.play{
+			margin-right: 3%;
+		}
+		.ap li{
+			display: inline;
+			margin-right: 3%;
+		}
+		.ap li a{
+			text-decoration: none;
+			color: black;
+			border: 1px solid white;
+			background-color: white;
+			padding-left: 2.5%;
+			padding-right:2.5%;
+			padding-top: 1%;
+			padding-bottom: 1%;
+			border-radius: 10px;
+			font-size: 1vw;
+		}
+		.ap li a:hover{
+			background-color: lightgrey;
+		}
+		h1{
+			font-size: 3vw;
+			font-family: sans-serif;
+			text-shadow: 3px 4px 8px floralwhite;
+
+		}
+		#div2{
+		
+			font-family: sans-serif;
+			width: 100%;
+			padding-top: 2%;
+		}
+		.aa{
+			float: left;
+			font-size: 1.2vw;
+			width: 30%;
+			margin-left:6.2%;
+		}
+		.bb{
+			float: left;
+			width: 30%;
+			font-size: 1.2vw;
+			margin-left:2.5%;
+		}
+		.cc{
+			float: left;
+			width: 30%;
+			font-size: 1.2vw;
+			padding-bottom: 3%;
+			margin-left:1%;
+		}
+		
+		span{
+			border: 1px solid #cad1ce;
+			background-color: #cad1ce;
+			padding: 3px;
+			border-radius: 5px;
+		}
+		#div3{
+			float: left;
+			clear: left;
+			background-color:#d7e9d6;
+			width: 100%;
+			border-radius: 5px;
+		}
+		h2{
+			text-align: center;
+			margin-top: 5%;
+
+
+		}
+		#para{
+			font-size: 1vw;
+			font-weight: normal;
+		}
+		.ii{
+			width: 5%;
+			border-radius: 180px;
+			margin-top: 1%;
+			margin-left: 47.5%;
+		}
+		.pp{
+			text-align: center;
+			font-family: sans-serif;
+		}
+		.img img{
+			width: 9%;
+			margin-top: 3%;
+			margin-left: 13%;
+			padding-bottom: 2%;
+		}
+		.kk{
+			height: 30px;
+		}
+		#div4{
+			clear: left;
+			padding-bottom: 1%;
+		}
+		.hh{
+			text-align: center;
+			font-weight: bold;
+			font-size: 3vw;
+			font-family: Calibri Light;
+			padding-top: 2.5%;
+			word-spacing: 10px;
+			line-height: 15px;
+			
+		}
+		.put{
+			text-align: center;
+			font-weight: normal;
+			font-size: 1vw;
+			font-family: sans-serif;
+			line-height: 30px;
+					
+		}
+		
+		#div5{
+			clear: left;
+			background-image:linear-gradient(to left, #EBF1C6, grey, #F1C6C6);
+			border-radius: 5px;
+			
+		}
+		.home{
+			margin-left: 15%;
+			padding: 15px ;
+			display: inline-block;
+			
+		}
+		.apple{
+			font-size: 1vw;
+		}
+
+		 .pricing-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      gap: 4rem;
+    }
+
+    .pricing-plan {
+      flex: 1;
+      max-width: 400px;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .plan-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-family: monospace;
+    }
+
+    .plan-price {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .plan-features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: 1vw;
+    }
+
+    .plan-features li {
+      margin-bottom: 30px;
+    }
+
+    .plan-button {
+      padding: 10px;
+      background-color: #ff6600;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+      font-size: 0.9vw;
+    }
+    .plan-button:hover{
+    	background-color: lightcoral;
+    }
+    .plan-button a{
+    	text-decoration: none;
+    	color: floralwhite;
+    	font-weight: bold;
+    }
+    h4{
+    	font-size: 1vw;
+    }
+    h4:hover{
+    	text-decoration: underline;
+    }
+    }
+    .plan-button a:hover{
+    	color: black;
+    }
+
+    @media (max-width: 1250px) {
+      .pricing-container {
+        flex-direction: column;
+        height: 100%;
+      }
+    }
+
+
+
+
+	</style>
+</head>
+<body>
+	  <header>
+    <h1>Tiny Dog</h1>
+    <p>Dog Health & Care Service Provide</p>
+    
+  </header>
+	<div class="container">
+		<div id="div1">
+		    <div class="header">
+		    	<img src="Assets/Images/tinydog 2.png" class="dog">
+			    <h1 class="h1">Meet new and interesting<br> dogs nearby.</h1>
+
+			    <ul class="ap">
+				    <li><a href="#"><img src="Asstes/Images/apple.png" class="apple">Download</a></li>
+				    <li><a href="#" class="play"><img src="Assets/Images/play-store.png" >Download</a></li>
+			    </ul>
+		    </div> 
+		</div>  
+
+		<div id="div2">
+			<div class="aa">
+			    <h3><span class="material-icons">check_circle</span>Easy to use.</h3>
+			    <p id="para">So easy to use, even your dog could do it.</p>
+			</div cl>
+			
+			<div class="bb">
+				<h3><span class="material-icons">school</span>Elite Clientele.</h3>
+				<p id="para">We have all the dog, the greatest dogs.</p>
+			</div>    
+
+			<div class="cc">
+				<h3><span class="material-icons">volunteer_activism</span>Guarantreed to work.</h3>
+				<p id="para">Find the love of your dog's life or your money<br> back.</p>
+			</div>
+		</div>	
+
+		<div id="div3">
+			<div>
+				<h2>"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."</h2>
+			</div>
+			<div>
+				<img src="Assets/Images/tiny.jpg" class="ii">
+				<p class="pp">Pebbles, New York</p>
+			</div>
+			<div class="img">
+				<img src="Assets/Images/tech.png">
+				<img src="Assets/Images/masha.png">
+				<img src="Assets/Images/business.png">
+				<img src="Assets/Images/tnw.png" class="kk">
+			</div>	
+		</div>
+		
+		<div id="div4">
+			<div>
+			    <h2 class="hh">A Plan for Every Dog's Needs</h2>
+			    <p class="put">Simple and affordable price plans for you and your dog.</p>
+			</div> 
+	         <div class="pricing-container">
+    <div class="pricing-plan">
+      <div class="plan-title">Chihuahua</div>
+      <div class="plan-price">$0/month</div>
+      <ul class="plan-features">
+        <li>✅ 5 Matches Per Day</li>
+        <li>✅ 10 Messages Per Day</li>
+        <li>✅ Unlimited App Usage</li>
+      </ul>
+      <button class="plan-button"><a href="#">Sign Up for free</a></button>
+    </div>
+    <div class="pricing-plan">
+      <div class="plan-title">Labrador</div>
+      <div class="plan-price">$15/month</div>
+      <ul class="plan-features">
+        <li>✅ Unlimited Matches</li>
+        <li>✅ Unlimited Messages</li>
+        <li>✅ Unlimited App Usage</li>
+      </ul>
+      <button class="plan-button"><a href="#">Get Started</a></button>
+    </div>
+    <div class="pricing-plan">
+      <div class="plan-title">Mastiff</div>
+      <div class="plan-price">$29/month</div>
+      <ul class="plan-features">
+        <li>✅ Pirority Listing</li>
+        <li>✅ Unlimited Matches & Messages</li>
+        <li>✅ Unlimited App Usage</li>
+      </ul>
+      <button class="plan-button"><a href="#">Contact Us</a></button>
+    </div>
+  </div>
+
+		</div>	
+
+		<div id="div5">
+			<div class="home">
+				<h4>Section</h4>
+				<p>Home</p>
+				<p>Features</p>
+			</div>
+
+			<div class="home">
+				<h4>Section</h4>
+				<p>Home</p>
+				<p>Features</p>
+			</div>
+
+			<div class="home">
+				<h4>Section</h4>
+				<p>Home</p>
+				<p>Features</p>
+			</div>
+		</div>
+	</div>		
+
+</body>
+</html>
